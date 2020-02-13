@@ -36,3 +36,23 @@ let edad_futura : string = `
     El siguiente mes mi edad será ${edad_actual + 1}
 `;
 console.log(edad_futura);
+
+
+// Template Strings (postprocesado)
+function myTag(strings : TemplateStringsArray, expProgramas : string, expEdad : number) {
+  let str0 : string = strings[0]; // "Hola. "
+  let str1 : string = strings[1]; // ". Soy un "
+
+  // Hay técnicamente un String después
+  // la expresión final (en nuestro ejemplo)
+  // pero es vacía (""), asi que se ignora.
+  // var str2 = strings[2];
+
+  let strEdad : string = (expEdad > 99) ? 'viejo' : 'joven';
+
+  // Podemos incluso retornar un string usando una plantilla de cadena de texto
+  return `${str0}${expProgramas}${str1}${strEdad}`;
+}
+
+let postprocesado : string = myTag`Hola. ${ programas }. Soy un ${ edad_actual }`;
+console.log(postprocesado);

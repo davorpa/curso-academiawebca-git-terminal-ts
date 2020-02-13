@@ -1,4 +1,8 @@
 "use strict";
+var __makeTemplateObject = (this && this.__makeTemplateObject) || function (cooked, raw) {
+    if (Object.defineProperty) { Object.defineProperty(cooked, "raw", { value: raw }); } else { cooked.raw = raw; }
+    return cooked;
+};
 // Comillas dobles
 var pelicula = "Misión Imposible";
 // Comillas simples
@@ -16,4 +20,18 @@ console.log(programas2);
 var edad_actual = 23;
 var edad_futura = "\n    El siguiente mes mi edad ser\u00E1 " + (edad_actual + 1) + "\n";
 console.log(edad_futura);
+// Template Strings (postprocesado)
+function myTag(strings, expProgramas, expEdad) {
+    var str0 = strings[0]; // "Hola. "
+    var str1 = strings[1]; // ". Soy un "
+    // Hay técnicamente un String después
+    // la expresión final (en nuestro ejemplo)
+    // pero es vacía (""), asi que se ignora.
+    // var str2 = strings[2];
+    var strEdad = (expEdad > 99) ? 'viejo' : 'joven';
+    // Podemos incluso retornar un string usando una plantilla de cadena de texto
+    return "" + str0 + expProgramas + str1 + strEdad;
+}
+var postprocesado = myTag(__makeTemplateObject(["Hola. ", ". Soy un ", ""], ["Hola. ", ". Soy un ", ""]), programas, edad_actual);
+console.log(postprocesado);
 //# sourceMappingURL=string.js.map
