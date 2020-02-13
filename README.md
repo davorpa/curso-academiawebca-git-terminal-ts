@@ -12,7 +12,7 @@ Instala NodeJS: <http://nodejs.org/>
 
 Desde una terminal:
 
-1. **Instala typescript** como libería global de nodejs:
+1. **Instala [TypeScript](https://www.typescriptlang.org/)** como libería global de NodeJS:
 
 ```bash
 npm install -g typescript
