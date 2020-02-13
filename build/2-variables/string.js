@@ -12,4 +12,8 @@ console.log(programas);
 // Template Strings
 var programas2 = "\n    Mis programas favoritos son: " + pelicula + " y " + serie + "\n";
 console.log(programas2);
+// Template Strings (expresiones)
+var edad_actual = 23;
+var edad_futura = "\n    El siguiente mes mi edad ser\u00E1 " + (edad_actual + 1) + "\n";
+console.log(edad_futura);
 //# sourceMappingURL=string.js.map
