@@ -7,4 +7,5 @@ nombre_de_mi_variable = true;
 var equipo = "Real Madrid";
 // Constantes
 var PI = 3.14;
+PI = 3.16;
 //# sourceMappingURL=variables.js.map
