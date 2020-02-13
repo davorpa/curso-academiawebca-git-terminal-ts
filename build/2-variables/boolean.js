@@ -8,4 +8,6 @@ console.log(soy_fan, "soy_fan");
 console.log(soy_alto && soy_fan, "conjunción");
 // operador de disyunción (o)
 console.log(soy_alto || soy_fan, "disyunción");
+// Métodos
+console.log(soy_alto.valueOf(), "soy_alto.valueOf()");
 //# sourceMappingURL=boolean.js.map
