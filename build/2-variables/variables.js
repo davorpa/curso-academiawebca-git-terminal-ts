@@ -5,4 +5,6 @@ var nombre_de_mi_variable;
 nombre_de_mi_variable = true;
 // Declara e Inicializa
 var equipo = "Real Madrid";
+// Constantes
+var PI = 3.14;
 //# sourceMappingURL=variables.js.map
