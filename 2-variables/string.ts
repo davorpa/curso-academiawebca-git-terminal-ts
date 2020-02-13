@@ -17,3 +17,9 @@ Euismod quis viverra nibh cras.
 Feugiat scelerisque varius morbi enim. 
 Pharetra diam sit amet nisl suscipit adipiscing bibendum est.
 `;
+
+// Operaciones
+
+// Concatenar
+let programas : string = "Mis programas favoritos son: " + pelicula + " y " + serie;
+console.log(programas);
