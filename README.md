@@ -24,7 +24,7 @@ npm install -g typescript
 tsc --init
 ```
 
-Esto genera el **archivo [.tsconfig](/.tsconfig)** que nos simplificará bastante las instrucciones a pasar al compilador de Typescript a la hora de interactuar con el proyecto de manera global.
+Esto genera el **archivo [tsconfig.json](/tsconfig.json)** que nos simplificará bastante las instrucciones a pasar al compilador de Typescript a la hora de interactuar con el proyecto de manera global.
 
 Edítalo a gusto siguiendo [la documentación](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) y según las premisas de tu proyecto. Yo por ejemplo suelo como mínimo cambiar el directorio output a `build` (por convención) y habilitar los sourcemaps y compilación estricta.
 
