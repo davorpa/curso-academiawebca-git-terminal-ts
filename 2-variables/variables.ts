@@ -9,4 +9,4 @@ let equipo = "Real Madrid";
 
 // Constantes
 const PI = 3.14;
-PI = 3.16;
+//PI = 3.16;    // ERROR: Las constantes no se pueden sobrescribir
