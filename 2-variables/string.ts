@@ -56,3 +56,10 @@ function myTag(strings : TemplateStringsArray, expProgramas : string, expEdad : 
 
 let postprocesado : string = myTag`Hola. ${ programas }. Soy un ${ edad_actual }`;
 console.log(postprocesado);
+
+
+
+// métodos
+
+console.log(programas.charAt(0)); // Primera Letra
+console.log(programas.toUpperCase()); // En Mayúsculas

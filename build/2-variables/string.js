@@ -34,4 +34,7 @@ function myTag(strings, expProgramas, expEdad) {
 }
 var postprocesado = myTag(__makeTemplateObject(["Hola. ", ". Soy un ", ""], ["Hola. ", ". Soy un ", ""]), programas, edad_actual);
 console.log(postprocesado);
+// métodos
+console.log(programas.charAt(0)); // Primera Letra
+console.log(programas.toUpperCase()); // En Mayúsculas
 //# sourceMappingURL=string.js.map
