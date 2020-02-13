@@ -9,4 +9,7 @@ var poema = "\nLorem ipsum dolor sit amet, consectetur adipiscing elit, \nsed do
 // Concatenar
 var programas = "Mis programas favoritos son: " + pelicula + " y " + serie;
 console.log(programas);
+// Template Strings
+var programas2 = "\n    Mis programas favoritos son: " + pelicula + " y " + serie + "\n";
+console.log(programas2);
 //# sourceMappingURL=string.js.map

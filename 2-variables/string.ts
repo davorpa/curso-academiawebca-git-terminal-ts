@@ -23,3 +23,9 @@ Pharetra diam sit amet nisl suscipit adipiscing bibendum est.
 // Concatenar
 let programas : string = "Mis programas favoritos son: " + pelicula + " y " + serie;
 console.log(programas);
+
+// Template Strings
+let programas2 : string = `
+    Mis programas favoritos son: ${pelicula} y ${serie}
+`;
+console.log(programas2);
